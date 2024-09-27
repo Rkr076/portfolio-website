@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>UI Developer</p>
+                <h1>Hi, I am <span>Rahul</span> <br />from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--about us -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.png" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sunt possimus iure
+                        reiciendis error laborum magnam deleniti,
+                        iusto saepe placeat nam aliquid quasi quos modi velit libero commodi sapiente nostrum. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links" data-tab="tab1">Education</p>
+                        <p class="tab-links" data-tab="tab2">Skills</p>
+                        <p class="tab-links" data-tab="tab3">Experience</p>
+                    </div>
+                    <div class="tab-contents" id="tab1">
+                        <ul>
+                            <li><span>B.tech</span> <br />TIT, Bhopal</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tab2">
+                        <ul>
+                            <li><span>Frontend</span> <br />HTML, Css, Javascript, React JS, Photoshop, Boostrap, Sass, Figma</li>
+                            <li><span>Backend</span> <br />Node JS, PHP, Mysql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tab3">
+                        <ul>
+                            <li><span>Web developer</span> <br />Dez India</li>
+                            <li><span>Web developer</span> <br />BizFly Technologies</li>
+                            <li><span>UI developer</span> <br />ABM knowledgeware limited</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accomplishment -->
+    <div id="achievement">
+     <div class="container">
+        <div class="achievement-list">
+            <div class="list-box">
+                <h2>3+</h2>
+                <span>Years of experience &nbsp; <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="list-box">
+                <h2>35+</h2>
+                <span>Projects completed &nbsp; <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="list-box">
+                <h2>15+</h2>
+                <span>Satisfied clients  &nbsp;<i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    
+
+    <!--- services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the
+                        plan for designing a website.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the
+                        plan for designing a website.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the
+                        plan for designing a website.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png" />
+                    <div class="layer">
+                        <h3>Integrated state portal</h3>
+                        <p>Its an integrated portal of bihar govt which brings all department of bihar under one roof.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" />
+                    <div class="layer">
+                        <h3>HOBPAS Haryana</h3>
+                        <p>The Online Building Permission Systems will enable registered architects to be eligible to grant self-permit for residential building construction of up to 500 square meters. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" />
+                    <div class="layer">
+                        <h3>Sharma Interiors</h3>
+                        <p>It is turn-key contracting company for the stylish, modern and thoughtful approach for interior and exterior decoration and the wide attention for quality & finishing.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact us</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> rahulgop.rock@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +91 7765907556</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="aug2024resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your email" required />
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &nbsp; Made with <i class="fa-solid fa-heart"></i> by Rahul kumar</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tabButtons = document.querySelectorAll(".tab-links");
+
+        for (var i = 0; i < tabButtons.length; i++) {
+            tabButtons[i].addEventListener("click", function () {
+                var tabName = this.dataset.tab;
+                var tabContent = document.getElementById(tabName);
+                var allTabContent = document.querySelectorAll(".tab-contents");
+                var allTabButtons = document.querySelectorAll(".tab-links");
+
+                for (var j = 0; j < allTabContent.length; j++) {
+                    allTabContent[j].style.display = "none";
+                }
+
+                for (var k = 0; k < allTabButtons.length; k++) {
+                    allTabButtons[k].classList.remove("active-link");
+                }
+
+                tabContent.style.display = "block";
+                this.classList.add("active");
+            });
+        }
+
+        document.querySelector(".tab-links").click();
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openMenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyzj3IeEcOEMg9u9aj8Bf6NM2b2r-0z0wnJUSkgNEnDzpbljxAmpBaMLCgLgnGh9O0kWw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+
+</html>
